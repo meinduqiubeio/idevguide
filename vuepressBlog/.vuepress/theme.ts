@@ -3,11 +3,11 @@ import * as navbar from "./navbar";
 import * as sidebar from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://github.com/meinduqiubeio/idevguide/",
+  hostname: "https://idevguide.com",
 
   author: {
     name: "Mr.Hope",
-    url: "https://mrhope.site",
+    url: "https://idevguide.com",
   },
 
   iconAssets: "iconfont",
