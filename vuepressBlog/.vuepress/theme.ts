@@ -5,11 +5,11 @@ import * as sidebar from "./sidebar";
 export default hopeTheme({
  
 
-  hostname: "https://idevguide.com",
+  hostname: "https://meinduqiubeio.github.io/idevguide/",
 
   author: {
     name: "Mr.Hope",
-    url: "https://mrhope.site",
+    url: "https://idevguide.com",
   },
 
   iconAssets: "iconfont",
