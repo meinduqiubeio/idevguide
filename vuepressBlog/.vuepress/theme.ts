@@ -3,9 +3,9 @@ import * as navbar from "./navbar";
 import * as sidebar from "./sidebar";
 
 export default hopeTheme({
-  base:"/idevguide/",
-  
-  hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+ 
+
+  hostname: "https://idevguide.com",
 
   author: {
     name: "Mr.Hope",
