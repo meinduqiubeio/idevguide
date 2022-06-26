@@ -45,8 +45,8 @@ export const en = navbar([
     ],
   },
   {
-    text: "Theme Docs",
+    text: "Others",
     icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/",
+    link: " ",
   },
 ]);

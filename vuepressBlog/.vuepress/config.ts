@@ -1,20 +1,41 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme";
-
+import { searchPlugin } from "@vuepress/plugin-search";
+const { nprogressPlugin } = require('@vuepress/plugin-nprogress')
+const { googleAnalyticsPlugin } = require('@vuepress/plugin-google-analytics')
 export default defineUserConfig({
 
   locales: {
     "/": {
       lang: "en-US",
       title: "Theme Demo",
-      description: "A demo for vuepress-theme-hope",
+      description: "Personal blog for learning purposes，documenting the development process",
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "主题演示",
-      description: "vuepress-theme-hope 的演示",
+      title: "iDevguide",
+      description: "个人博客学习用途，记录过程.",
     },
   },
 
   theme,
+  plugins: [
+    searchPlugin({
+
+      locales: {
+        "/zh/": {
+          placeholder: "搜索",
+        },
+        "/": {
+          placeholder: "Search",
+        },
+      },
+      maxSuggestions: 4,
+
+    }),
+    nprogressPlugin(),
+    googleAnalyticsPlugin({
+      id: 'G-G63MSQ1CCE',
+    }),
+  ],
 });

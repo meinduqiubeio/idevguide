@@ -99,8 +99,8 @@ features:
     details: Including icon support, fullscreen button, etc.
     link: https://vuepress-theme-hope.github.io/v2/guide/feature/
 
-copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+copyright: true
+footer: MIT Licensed | Copyright © 2022-present
 ---
 
 This is an example of a project homepage. You can place your main content here.

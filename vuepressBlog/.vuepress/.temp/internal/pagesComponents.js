@@ -29,6 +29,8 @@ export const pagesComponents = {
   "v-7beb5be1": defineAsyncComponent(() => import(/* webpackChunkName: "v-7beb5be1" */"C:/Users/Admin/Desktop/workspace/idevguide/vuepressBlog/.vuepress/.temp/pages/posts/article9.html.vue")),
   // path: /zh/home.html
   "v-bf50119c": defineAsyncComponent(() => import(/* webpackChunkName: "v-bf50119c" */"C:/Users/Admin/Desktop/workspace/idevguide/vuepressBlog/.vuepress/.temp/pages/zh/home.html.vue")),
+  // path: /zh/intro.html
+  "v-858cfdd6": defineAsyncComponent(() => import(/* webpackChunkName: "v-858cfdd6" */"C:/Users/Admin/Desktop/workspace/idevguide/vuepressBlog/.vuepress/.temp/pages/zh/intro.html.vue")),
   // path: /zh/
   "v-2d0ad528": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d0ad528" */"C:/Users/Admin/Desktop/workspace/idevguide/vuepressBlog/.vuepress/.temp/pages/zh/index.html.vue")),
   // path: /zh/slide.html
@@ -59,14 +61,6 @@ export const pagesComponents = {
   "v-7a8fca2f": defineAsyncComponent(() => import(/* webpackChunkName: "v-7a8fca2f" */"C:/Users/Admin/Desktop/workspace/idevguide/vuepressBlog/.vuepress/.temp/pages/zh/guide/page.html.vue")),
   // path: /zh/guide/
   "v-47357bdb": defineAsyncComponent(() => import(/* webpackChunkName: "v-47357bdb" */"C:/Users/Admin/Desktop/workspace/idevguide/vuepressBlog/.vuepress/.temp/pages/zh/guide/index.html.vue")),
-  // path: /zh/posts/article10.html
-  "v-fc9d8170": defineAsyncComponent(() => import(/* webpackChunkName: "v-fc9d8170" */"C:/Users/Admin/Desktop/workspace/idevguide/vuepressBlog/.vuepress/.temp/pages/zh/posts/article10.html.vue")),
-  // path: /zh/posts/article11.html
-  "v-f933d032": defineAsyncComponent(() => import(/* webpackChunkName: "v-f933d032" */"C:/Users/Admin/Desktop/workspace/idevguide/vuepressBlog/.vuepress/.temp/pages/zh/posts/article11.html.vue")),
-  // path: /zh/posts/article12.html
-  "v-f5ca1ef4": defineAsyncComponent(() => import(/* webpackChunkName: "v-f5ca1ef4" */"C:/Users/Admin/Desktop/workspace/idevguide/vuepressBlog/.vuepress/.temp/pages/zh/posts/article12.html.vue")),
-  // path: /zh/posts/article9.html
-  "v-4ba29552": defineAsyncComponent(() => import(/* webpackChunkName: "v-4ba29552" */"C:/Users/Admin/Desktop/workspace/idevguide/vuepressBlog/.vuepress/.temp/pages/zh/posts/article9.html.vue")),
   // path: /zh/posts/article/article1.html
   "v-49b141fe": defineAsyncComponent(() => import(/* webpackChunkName: "v-49b141fe" */"C:/Users/Admin/Desktop/workspace/idevguide/vuepressBlog/.vuepress/.temp/pages/zh/posts/article/article1.html.vue")),
   // path: /zh/posts/article/article2.html
