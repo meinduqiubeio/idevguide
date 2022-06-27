@@ -1,1 +1,14 @@
-export const data = JSON.parse("{\"key\":\"v-184f4da6\",\"path\":\"/intro.html\",\"title\":\"Intro Page\",\"lang\":\"en-US\",\"frontmatter\":{\"icon\":\"info\",\"summary\":\"Intro Page Place your introducation and profile here.\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://idevguide.com/intro.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"Theme Demo\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Intro Page\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2022-06-12T17:11:09.000Z\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2022-06-12T17:11:09.000Z\"}]]},\"excerpt\":\"\",\"headers\":[],\"git\":{\"createdTime\":1655053869000,\"updatedTime\":1655053869000,\"contributors\":[{\"name\":\"lwh\",\"email\":\"lwh7749@outlook.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.03,\"words\":8},\"filePathRelative\":\"intro.md\",\"localizedDate\":\"June 12, 2022\"}")
+export const data = JSON.parse("{\"key\":\"v-184f4da6\",\"path\":\"/intro.html\",\"title\":\"Intro Page\",\"lang\":\"en-US\",\"frontmatter\":{\"icon\":\"info\",\"summary\":\"Intro Page Place your introducation and profile here.\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://idevguide.com/intro.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"Theme Demo\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Intro Page\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"zh-CN\"}]]},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":0.03,\"words\":8},\"filePathRelative\":\"intro.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

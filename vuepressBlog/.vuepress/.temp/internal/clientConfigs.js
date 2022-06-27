@@ -10,7 +10,6 @@ import clientConfig8 from 'C:/Users/Admin/Desktop/workspace/idevguide/node_modul
 import clientConfig9 from 'C:/Users/Admin/Desktop/workspace/idevguide/vuepressBlog/.vuepress/.temp/theme-hope/config.js'
 import clientConfig10 from 'C:/Users/Admin/Desktop/workspace/idevguide/node_modules/.pnpm/@vuepress+plugin-search@2.0.0-beta.48/node_modules/@vuepress/plugin-search/lib/client/config.js'
 import clientConfig11 from 'C:/Users/Admin/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
-import clientConfig12 from 'C:/Users/Admin/Desktop/workspace/idevguide/node_modules/.pnpm/@vuepress+plugin-google-analytics@2.0.0-beta.48/node_modules/@vuepress/plugin-google-analytics/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -25,5 +24,4 @@ export const clientConfigs = [
   clientConfig9,
   clientConfig10,
   clientConfig11,
-  clientConfig12,
 ]

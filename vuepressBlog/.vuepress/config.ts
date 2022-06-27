@@ -30,10 +30,9 @@ export default defineUserConfig({
           placeholder: "Search",
         },
       },
-      maxSuggestions: 4,
+      maxSuggestions: 5,
 
     }),
-    nprogressPlugin(),
     googleAnalyticsPlugin({
       id: 'G-G63MSQ1CCE',
     }),

@@ -101,6 +101,8 @@ export default hopeTheme({
     config: {
       "/guide/encrypt.html": ["111Aaa111."],
       "/zh/guide/encrypt.html": ["111Aaa111."],
+      "/zh/home.html": ["111Aaa111."],
+      "/home.html": ["111Aaa111."],
     },
   },
 
